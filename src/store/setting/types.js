@@ -1,0 +1,5 @@
+export const GET_SETTING = "GET_SETTING";
+export const EDIT_SETTING = "EDIT_SETTING";
+export const GOOGLE_SWITCH = "GOOGLE_SWITCH";
+export const RAZOR_PAY_SWITCH = "RAZOR_PAY_SWITCH";
+export const STRIPE_SWITCH = "STRIPE_SWITCH";
