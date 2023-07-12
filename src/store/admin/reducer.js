@@ -18,7 +18,7 @@ const initialState = {
 
 const AdminReducer = (state = initialState, action) => {
   let decoded;
-  const key = "GRBqJqoVrWo0sdEJTRvBnnizXQi8AhT8";
+  const key = "0XIGhLEW7XmSAVxaFwdVteUBZwN03y3n";
 
   switch (action.type) {
     case SET_ADMIN:
