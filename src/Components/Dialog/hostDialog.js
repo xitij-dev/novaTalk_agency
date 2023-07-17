@@ -144,7 +144,7 @@ const HostDialog = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!name || !password.value || !hostId) {
+    if (!name || !password.value || !hostId || !bio) {
       const errors = {};
       if (!name) {
         errors.name = "Name can't be a blank!";
@@ -157,6 +157,9 @@ const HostDialog = (props) => {
       }
       if (!hostId) {
         errors.hostId = "Host Id can't be a blank!";
+      }
+      if (!bio) {
+        errors.bio = "Bio can't be a blank!";
       }
 
       if (!imageData || !imagePath) {
