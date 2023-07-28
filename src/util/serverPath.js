@@ -1,1 +1,1 @@
-export const baseURL = "http://admin.novatalk.club";
+export const baseURL = "https://admin.novatalk.club";
